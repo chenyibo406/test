@@ -1,0 +1,55 @@
+/* --------------------------GOOGLE FONT-------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@400;500;700;900&display=swap");
+
+/* ---X-----------------------GOOGLE FONT-----------------------X--- */
+
+/* --------------------------RESET-------------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* background-color: aquamarine; */
+}
+
+html {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+/* ---X-----------------------RESET-----------------------X--- */
+
+/* --------------------------MAIN-------------------------- */
+.main {
+  /* width: 100%; */
+  max-width: 100%;
+  display: grid;
+  border: 5px solid red;
+  /* justify-content: center; */
+  /* height: 100vh; */
+  /* background-color: crimson; */
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  /* gap: 20px; */
+}
+
+.card img {
+  /* width: auto; */
+  width: 100%;
+  height: auto;
+}
+
+/* todo: what is the different between body and html? */
+/* https://forum.freecodecamp.org/t/what-the-difference-between-body-and-html/223041 */
+/* Many browsers give default values within body and not html. 
+Therefore resetting those values in html usually mean nothing. */
+
+/* todo: Difference in applying CSS to html, body, and the universal selector *? */
+/* https://stackoverflow.com/questions/7187569/difference-in-applying-css-to-html-body-and-the-universal-selector */
